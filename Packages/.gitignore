@@ -1,0 +1,68 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+# Get the latest version from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Unity-specific folders to ignore
+/[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Memory captures and recordings (large files, potentially sensitive)
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Uncomment to ignore the Asset Store Tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Jetbrains Rider plugin (auto-generated)
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio cache directory
+.vs/
+.gradle/
+
+# Auto-generated solution and project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.VC.db
+*.opendb
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.meta
+
+# Unity3D generated crash report files
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
